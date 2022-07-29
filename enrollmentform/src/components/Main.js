@@ -38,12 +38,12 @@ export default function Main() {
                         </div>
                         <div className="col-12">
                             <label htmlFor="result" className="form-label">Result</label>
-                            <input value={formData.result} type="link" className="form-control" name="result" placeholder="Drive link of your result card" onChange={handleInputChange} />
+                            <input value={formData.result} type="link" className="form-control" name="result" placeholder="Result (in SGPA)" onChange={handleInputChange} />
                         </div>
-                        <div className="col-md-12">
+                        {/* <div className="col-md-12">
                             <label htmlFor="image" className="form-label">Image Link</label>
-                            <input value={formData.image} type="link" className="form-control" name="image" placeholder="Drive link of your image" onChange={handleInputChange} />
-                        </div>
+                            <input value={formData.image} type="link" className="form-control" name="image" placeholder="Drive Link of  your photo" onChange={handleInputChange} />
+                        </div> */}
                         <div className="col-md-12">
                             <label htmlFor="skill" className="form-label">Skills</label>
                             <input value={formData.skill} type="text" className="form-control" name="skill" placeholder="Technical skills  eg. web development.." onChange={handleInputChange} />
